@@ -1,0 +1,57 @@
+* {
+	text-align: center;
+}
+
+.container-fluid {
+	background-color: #1da1f2;
+	color: #fff;
+	height: 100vh;
+	padding-top: 15%;
+	
+}
+hr {
+	max-width: 900px;
+}
+.cite a {
+	color: #000;
+	font-weight: 700;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	display: inline-block;
+	padding: 8px;
+	background-color: #fff;
+	text-decoration: none;
+	margin-top: 40px;
+}
+.cite a:hover{
+	text-decoration: none;
+	transform: scale(1.2);
+}
+.fa {
+	color: #337ab7;
+}
+button {
+	max-width: 200px;
+	height: 50px;
+	margin: 4px 2px;
+	padding: 15px 30px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: inherit;
+	border: 2px solid;
+	background-position: 100% 0;
+	background-size: 300%;
+	transition: 0.4s;
+ 
+}
+button:hover{
+	color: #ec38bc;
+	background-image: linear-gradient(135deg, #7303c0 50%, transparent 50%);
+	background-position: 0 100%;
+	color: #FFF;
+}
+
+
